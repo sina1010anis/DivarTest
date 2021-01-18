@@ -1,0 +1,735 @@
+#BackSelectCity{
+    width: 100%;
+    height: 100vh;
+    background: #f6f6f6;
+}
+#PageSelectCity{
+    width: 70%;
+    height: 70%;
+    padding: 2px 20px;
+    box-sizing: border-box;
+    background: #ffffff;
+    box-shadow: 1px 1px 10px rgba(119, 119, 119, 0.5);
+}
+#PageSelectCityScroll{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    overflow-y: scroll;
+    background-color: #ffffff;
+}
+#TopHeaderPageIndex{
+    width: 100%;
+    height: 67px;
+    box-shadow: #e0e0e0 1px 1px 5px;
+}
+#Part1LeftHeader{
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.btn_new_news_free{
+    font-size: 15px;
+    line-height: 47px;
+}
+#ItemTopHeaderPageIndex{
+    padding: 0;
+    margin: 0;
+}
+#ItemTopHeaderPageIndex > a {
+    margin: 0 10px;
+    position: relative;
+    font-size: 13px;
+}
+#Part1RightHeader > a{
+    float: right;
+}
+#Part1RightHeader > a img{
+    width: 53px;
+    height: 48px;
+}
+#btn_Select_City{
+    padding: 5px 20px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+    margin-top: 8px;
+    font-size: 13px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    color: #5b5b5b;
+}
+#btn_menu_phone , #ViewMenuItemTopHeaderPageIndexPhone{
+    display: none;
+}
+#ItemTopHeaderPageIndexPhone a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px 0!important;
+}
+#SelectTypeNewsInputPage{
+    width: 100%;
+    height: 100px;
+}
+#SelectTypeNewsInputPage input{
+    width: 511px;
+    text-align: right;
+    height: 50px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 18px;
+    color: #919191;
+    padding: 5px 15px;
+    box-sizing: border-box;
+}
+#btnSelectTypeNews{
+    width: 150px;
+    cursor: pointer;
+    height: 51px;
+    color: #868686;
+    margin-top: 0!important;
+    transition: 0.5s;
+    border-radius: 0 5px 5px 0;
+    background-color: #e3e3e3;
+}
+#MenuTypeTopMenu{
+    width: 100%;
+    position: relative;
+    top: -25px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    height: 67px;
+    display: none;
+    background-color: #f8f8f8;
+}
+.MenuTypeTopMenuMin{
+    width: 100%;
+    background-color: #fdfdfd;
+    height: 67px;
+    position: relative;
+    top: 67px;
+}
+.MenuSub a{
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.MenuSub{
+    width: 100%;
+    position: absolute;
+    display: none;
+    z-index: 20;
+    top: 218px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+}
+.ViewNewsSelectMenuSelectType{
+    width: 19.5%;
+    float: right;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+}
+.ViewNewsSelectMenuSelectAddress{
+    width: 19.5%;
+    float: right;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eaeaea;
+}
+.ViewNewsSelectMenuSelectPrice{
+    width: 19.5%;
+    float: right;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eaeaea;
+}
+.FilterAll{
+    width:19.5%;
+    float: right;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eaeaea;
+}
+.AttrOneProduct{
+    font-size: 13px;
+    color: #727272;
+    margin-left: 10px;
+}
+.AttrOneProduct span{
+    float: right;
+    margin-right: 10px;
+}
+.ViewNewsSelectMenuSelectAddress select , .FilterAll select{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #eaeaea;
+}
+.ViewNewsSelectMenuSelectAddress button , .ViewNewsSelectMenuSelectPrice button , .FilterAll button {
+    border: 1px solid #a62626;
+    background-color: white;
+    width: 100%;
+    outline: none;
+    padding: 5px 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+    color:#a62626;
+}
+.ui-widget-header{
+    background-color:#a62626!important; ;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    background-color: #ffffff !important;
+    border-radius: 50%;
+    outline: none;
+    box-sizing: border-box!important;
+    border: #e25252 1px solid!important;
+}
+
+.ViewNewsSelectMenuSelectAddress button:hover , .ViewNewsSelectMenuSelectPrice button:hover, .FilterAll button:hover{
+    background-color: #a62626;
+    color:white;
+}
+.ViewNewsSelectMenuSelectType h4 , .ViewNewsSelectMenuSelectAddress h4 , .ViewNewsSelectMenuSelectPrice h4, .FilterAll h4 {
+    text-align: right;
+    color: #4e4e4e;
+}
+.ViewNewsSelectMenuSelectType a{
+    width: 95%;
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #8f8f8f;
+    position: relative;
+}
+.ViewNewsSelectMenuSelectType a:after{
+    content: '';
+    position: absolute;
+    height:0;
+    transition: 0.5s;
+    width: 2px;
+    top: 0;
+    opacity: 0;
+    right: -10px;
+    background-color: #a62626;
+}
+.ViewNewsSelectMenuSelectType a:hover:after{
+    height:100%;
+    opacity: 1;
+}
+.ViewNewsSelectMenu{
+    width: 80%!important;
+    margin: unset!important;
+}
+#ViewNewsSelectMenu{
+    width: 99%;
+    height:auto;
+    min-height: 3000px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+}
+#ViewNewsSelectMenu div{
+    width: 32.8%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#ViewNewsSelectMenu img{
+    width: 170px;
+    height: 170px;
+}
+#ViewNewsSelectMenu span{
+    position: absolute;
+    font-size: 12px;
+    direction: rtl;
+    color: #9b9b9b;
+}
+#PriceNews{
+    bottom: 30px;
+    right: 10px;
+}
+#AddressNews{
+    bottom: 5px;
+    right: 10px;
+}
+#ViewNewsSelectMenu p {
+    position: absolute;
+    right: 10px;
+    top: -8px;
+    width: 40%;
+    text-align: right;
+    direction: rtl;
+}
+@media all and (max-width: 800px) {
+    #ViewNewsSelectMenu div{
+        width:100%;
+    }
+}
+@media all and (min-width: 800px) and (max-width: 1270px){
+    #ViewNewsSelectMenu div{
+        width:49%;
+    }
+}
+@media all and (max-width: 470px) {
+    #ViewNewsSelectMenu div{
+        width:100%;
+        margin-top: 5px;
+    }
+}
+.btnMenuTypeTopMenuSubMenu{
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    display: none;
+    height: 200px;
+    background-color: red;
+}
+#MenuTypeTopMenuPhone{
+    display: none;
+}
+#btnSelectTypeNews:hover{
+    background-color: #dddddd;
+}
+#MenuTypeTopMenu span{
+    margin: 0 15px;
+    cursor: pointer;
+    float: right;
+    text-align: right;
+    font-size: 14px;
+    color: #565656;
+}
+#PageSearchView{
+    width: 511px;
+    max-height: 500px;
+    background-color: white;
+    overflow-y: scroll;
+    box-shadow: 1px 1px 5px rgba(159, 159, 159, 0.5);
+    position: absolute;
+    left: 50%;
+    top: 151px;
+    transform: translate(-65%,0);
+    z-index: 10;
+}
+#PageSearchView a{
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+    display: block;
+}
+#PageSearchView a:hover{
+    color:#a62626!important; ;
+}
+.iconViewChat{
+    position: absolute!important;
+    z-index: 9;
+    color: #a62626;
+    top: 10px;
+    left: 10px;
+}
+@media all and (max-width: 760px) {
+    #ViewNewsSelectMenu{
+        width: 100%!important;
+    }
+    .ViewNewsSelectMenuSelectType , .ViewNewsSelectMenuSelectAddress , .ViewNewsSelectMenuSelectPrice , .FilterAll{
+        display: none;
+    }
+}
+@media all and (max-width: 450px) {
+    #SelectTypeNewsInputPage input{
+        width: 200px;
+    }
+    #PageSearchView{
+        width: 200px;
+    }
+}
+@media all and (max-width: 426px) {
+    .btn_new_news_free{
+        font-size: 10px;
+    }
+    #btn_Select_City{
+        font-size: 9px;
+    }
+}
+
+@media all and (max-width: 890px) {
+    #MenuTypeTopMenu{
+        position: absolute;
+        width: 300px;
+        height: 100vh;
+        display: none;
+        padding: 20px;
+        right: 0;
+        overflow-y:scroll ;
+    }
+    #MenuTypeTopMenu span{
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #MenuTypeTopMenuPhone{
+        position: absolute;
+        width: 300px;
+        height: 100vh;
+        display: none;
+        padding: 20px;
+        right: 0;
+        overflow-y:scroll ;
+    }
+    #MenuTypeTopMenuPhone span{
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+    }
+    #ViewMenuItemTopHeaderPageIndexPhone{
+        width: 300px;
+        height: 100vh;
+        display: none;
+        position: fixed;
+        background-color: #fcfcfc;
+        left: 0;
+    }
+    #btn_menu_phone{
+        float: left;
+        padding: 10px 12px;
+        background-color: #f6f6f6;
+        color: #5f5f5f;
+        display: block;
+        margin-top: 5px;
+    }
+    #Part1RightHeader , #Part1LeftHeader{
+        width: 50%!important;
+    }
+    #Part1LeftHeader a {
+        margin-left: 10px;
+    }
+    #ItemTopHeaderPageIndex a{
+        display: none;
+    }
+}
+#btn_Select_City:hover{
+    border: 1px solid #c4c4c4;
+    color: #797979;
+}
+#ItemTopHeaderPageIndex > a:after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #a62626;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    margin: auto;
+    transition: 0.5s;
+}
+#ItemTopHeaderPageIndex > a:hover:after{
+    width: 100%;
+}
+#Part1RightHeader{
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: right;
+}
+#PageSelectCityScroll a{
+    font-size: 13px;
+    color: #343434;
+    margin: 20px;
+    position: relative;
+    width: 130px;
+    height: 30px;
+    display: inline-block;
+    transition: 0.2s;
+    border: 1px solid #cb3333;
+}
+#PageSelectCityScroll a:hover{
+    color: white!important;
+    background-color: #cb3333;
+}
+@media all and (max-width: 800px){
+    #PageSelectCity{
+        width: 90%;
+        height: 70%;
+    }
+}
+#ViewOnePageNews{
+    width: 85%;
+    height: auto;
+    margin: 20px auto;
+}
+.SectionViewOneNews{
+    width: 50%;
+}
+#SectionLeft{
+    float: left;
+}
+#SectionRight{
+    height: 200px;
+    float: right;
+}
+.ViewShowNumberPhone{
+    width: 100%;
+    float: right;
+    height: auto;
+    padding: 30px 0 ;
+    display: none;
+    margin-top: 10px;
+}
+#ViewChatDivar{
+    width: 80%;
+    height: 450px;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+}
+.PartLeft{
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+.PartRight{
+    width: 25%;
+    height: 100%;
+    float: right;
+    overflow-y: scroll;
+}
+.PartRight ul{
+    margin: 0;
+    padding: 0;
+}
+.PartRight ul li{
+    list-style: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100px;
+    transition: 0.2s;
+    border-bottom: 1px solid #d9d9d9;
+}
+.ViewComments{
+    width: 100%;
+    overflow-y: scroll;
+    height: 400px;
+}
+.InputChat{
+    width: 100%;
+    height:50px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.InputChat input{
+    width: 750px;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #cacaca;
+    padding: 5px 20px;
+}
+.InputChat button{
+    font-size: 25px;
+    color: #a62626;
+    /* margin-top: 5px; */
+    padding: 5px 7px;
+    position: relative;
+    top: 4px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.Comment{
+    width: 60%;
+    padding: 10px 10px;
+    list-style: none;
+    text-align: right;
+    direction: rtl;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 14px;
+    color: #262626;
+}
+.MyComment{
+    float: right;
+    background-color: #f5f5f5;
+    border-radius: 5px 5px 20px 5px;
+}
+.SendComment{
+    float: left;
+    background-color: #f5f5f5;
+    border: 1px solid #a62626 ;
+    border-radius: 5px 5px 5px 20px;
+}
+.PartRight ul li img{
+    float: right;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin: 10px 10px;
+}
+.PartRight ul li p{
+    float: right;
+    font-size: 12px;
+    color: #a2a2a2;
+}
+.PartRight ul li:hover{
+    background-color: #f8f8f8;
+}
+
+.btn_back_red_dirk_bg{
+    cursor: pointer;
+}
+#ViewImage{
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    box-shadow: 1px 1px 10px rgba(165, 165, 165, 0.5);
+    background-color: #eeeeee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#ViewImage img{
+    width: 100%;
+    height: 100%;
+}
+#ViewImageSlid{
+    margin-top: 20px;
+}
+#ViewImageSlid img{
+    width: 60px;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 2.5px;
+    transition: 0.3s all !important;
+}
+.SectionViewOneNewsP{
+    font-size: 12px;
+    color: #a0a0a0;
+    text-align: right;
+}
+.SectionViewOneNewsHR{
+    border: none;
+    width: 100%;
+    height: 0.5px;
+    background-color: #dedede;
+}
+#ViewImage #ShowTitle{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(191, 191, 191, 0.5);
+    z-index: 8;
+}
+#ViewImageSlid img:hover{
+    transform: scale(1.1);
+}
+@media all and (max-width: 835px) {
+    #SectionLeft , #SectionRight{
+        width: 100%;
+    }
+}
+@media all and (max-width: 400px) {
+    #ViewImage{
+        width: 200px;
+        height: 200px;
+    }
+}
+.SectionRightP{
+    text-align: right;
+    direction: rtl;
+    font-size: 14px;
+    color: #6e6e6e;
+}
+.iconViewOneNews{
+    float: right;
+    margin: 0 20px;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+    color: #585858;
+    cursor: pointer;
+}
+.iconViewOneNews:hover{
+    color: #5d5d5d;
+}
+.PageNewNews{
+    width: 500px;
+    border-radius: 5px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px rgba(169, 169, 169, 0.5);
+}
+.PageNewNews h4{
+    text-align: right;
+    color: #676767;
+    margin: 0;
+    font-size: 15px;
+    padding: 0;
+}
+.PageNewNews select{
+    width: 100%;
+    outline: none;
+    height: 35px;
+    border: 1px solid #d7d7d7;
+}
+.PageNewNews input[type=text] , .PageNewNews input[type=number]{
+    width: 100%;
+    padding:5px 10px;
+    text-align: right;
+    direction: rtl;
+    box-sizing: border-box;
+    outline: none;
+    height: 35px;
+    border: 1px solid #d7d7d7;
+}
+.PageNewNews textarea{
+    width: 100%;
+    padding:5px 10px;
+    text-align: right;
+    direction: rtl;
+    box-sizing: border-box;
+    outline: none;
+    height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 100px;
+    border: 1px solid #d7d7d7;
+}
+.PageNewNews label{
+    font-size: 13px;
+    color: #b0b0b0;
+    margin-bottom: 10px;
+}
+.PageNewNews .btn_border_bg_red{
+    background-color: #a62626;color: #ffffff;border-radius: 5px;border: none!important;padding: 10px 30px;outline: none;cursor: pointer;
+}
+.PageNewNews .btn_set_sub_menu , .btn_set_city{
+    background-color: #a62626;color: #ffffff;border-radius: 5px;border: none!important;padding: 5px 10px;outline: none;cursor: pointer;font-size: 12px;float: right;
+}
+.PageNewNews2 , .PageNewNews3 , .PageNewNews4{
+    display: none;
+}
