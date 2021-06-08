@@ -12,7 +12,7 @@ class CommentsController extends Controller
     public function ViewChat($CityA){
         $news=news::get();
         $ViewChatIndexPage=ViewChat::where(['mobile' => auth()->user()->mobile])->get();
-        return view('Front.index.Section.ViewChat' , compact('CityA','ViewChatIndexPage','news'))->with('title' , 'چت دیوار');
+        return view('Front.index.Section.ViewChat' , compact('CityA','ViewChatIndexPage','news'))->with('title' , 'Chat');
     }
     public function NewChat($CityA , $Mobile,$id  , ViewChat $viewChat){
         $ViewChat=ViewChat::where(['mobile' => auth()->user()->mobile , 'mobile_shop' => $Mobile , 'id_news' => $id])->orderBy('id' , 'DESC')->get();
@@ -24,7 +24,7 @@ class CommentsController extends Controller
             $viewChat->id_news= $id;
             $viewChat->save();
         }
-        return view('Front.index.Section.ViewChat' , compact('CityA' ,'news','ViewChatIndexPage', 'Mobile' , 'ViewChat'))->with('title' , 'چت دیوار');
+        return view('Front.index.Section.ViewChat' , compact('CityA' ,'news','ViewChatIndexPage', 'Mobile' , 'ViewChat'))->with('title' , 'Chat');
     }
     public function ViewChatOne($id,$CityA,$Mobile){
         $ViewChat=ViewChat::where(['mobile' => auth()->user()->mobile , 'mobile_shop' => $Mobile , 'id_news' => $id])->orderBy('id' , 'DESC')->get();

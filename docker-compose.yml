@@ -28,7 +28,7 @@ services:
     #     networks:
     #         - sail
     #     depends_on:
-    #         - laravel.test
+    #         - laravel.builderInterface
     mysql:
         image: 'mysql:8.0'
         ports:

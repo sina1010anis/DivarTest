@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41f4bfc8-4492-4273-be90-879992a4bfca" name="Default Changelist" comment="" />
+    <list default="true" id="41f4bfc8-4492-4273-be90-879992a4bfca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Str/PrintJson/PrintJson.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/AbstractFactory/AbstractFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/AbstractFactory/AbstractFactoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/AbstractFactory/ItemOneAbstractFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/AbstractFactory/ItemTowAbstractFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Builder/Builder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Builder/BuilderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Builder/BuilderToDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Builder/Home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Builder/HomeInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Composit/CardItemCompososit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Composit/InterfaceComposit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Composit/TagOl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Composit/TagP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Decorator/DecoratorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Decorator/P1Decorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Decorator/P2Decorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Decorator/P3Decorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/DependencyInjection/DependencyClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/DependencyInjection/SendInterfaceDependencyInjecion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/DependencyInjection/UploadInterfaceDependencyInjecion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/DependencyInjection/sendMessageDependency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/DependencyInjection/uploadFileDependency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Facade/Help.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Fluent/ClassFluent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/Fluent/userFluent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/StaticFactory/ItemOneStaticFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/StaticFactory/ItemTowStaticFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/StaticFactory/StaticFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pattern/StaticFactory/StaticFactoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Validate/Form/FormChecked.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Validate/Form/FormLogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Front/Index/Mail/Verify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Front/Index/Test.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Test/test.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Address.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +70,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -133,6 +188,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1mmQWljMSXTVjTPH3Qear6aECb4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -141,7 +197,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/style/Image/Data_User/Image_New" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Pattern/Decorator" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -150,15 +206,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\s1\Divar\app\Pattern\Decorator" />
+      <recent name="C:\wamp64\www\s1\Divar\app\Http" />
+      <recent name="C:\wamp64\www\s1\Divar\app\Pattern\AbstractFactory" />
       <recent name="C:\wamp64\www\s1\Divar\public\style\Image\Data_User\Image_New" />
       <recent name="C:\wamp64\www\s1\Divar\public\style\Image\Icon" />
-      <recent name="C:\wamp64\www\s1\Divar\resources\views\Front\Index" />
-      <recent name="C:\wamp64\www\s1\Divar\public\Tools" />
-      <recent name="C:\wamp64\www\s1\Divar\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\s1\Divar\app\Validate\Form" />
     </key>
   </component>
   <component name="RunManager">
@@ -199,7 +260,27 @@
       <workItem from="1610949657136" duration="867000" />
       <workItem from="1610951766173" duration="338000" />
       <workItem from="1610953078541" duration="1843000" />
-      <workItem from="1610975860677" duration="1199000" />
+      <workItem from="1610975860677" duration="2040000" />
+      <workItem from="1611060857707" duration="667000" />
+      <workItem from="1611071171957" duration="3222000" />
+      <workItem from="1611122771234" duration="5465000" />
+      <workItem from="1611158081359" duration="2376000" />
+      <workItem from="1611206804780" duration="21000" />
+      <workItem from="1611519144838" duration="79000" />
+      <workItem from="1611554512242" duration="156000" />
+      <workItem from="1611840223657" duration="309000" />
+      <workItem from="1611841115699" duration="748000" />
+      <workItem from="1611842079674" duration="3125000" />
+      <workItem from="1611848408982" duration="22000" />
+      <workItem from="1622726018392" duration="2641000" />
+      <workItem from="1622731802912" duration="1166000" />
+      <workItem from="1622954389120" duration="4557000" />
+      <workItem from="1622981822012" duration="3169000" />
+      <workItem from="1622988371911" duration="1008000" />
+      <workItem from="1623067327264" duration="2940000" />
+      <workItem from="1623129580256" duration="1790000" />
+      <workItem from="1623155381217" duration="1661000" />
+      <workItem from="1623158534331" duration="3090000" />
     </task>
     <servers />
   </component>
@@ -208,5 +289,17 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

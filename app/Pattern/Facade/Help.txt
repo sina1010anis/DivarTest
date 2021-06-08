@@ -1,0 +1,1 @@
+در مثالی که برای الگو Dependency injection زده شده برای الگو طراحی Facade هی توان زد

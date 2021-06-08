@@ -30,4 +30,11 @@ class UserFactory extends Factory
             'remember_token' => Str::random(10),
         ];
     }
+
+    public function SetMobileAndSetGoogleId(){
+        return $this->state([
+            'mobile' => '09395231890',
+            'google_id' => 'dsfsdfwerfwefwe',
+        ]);
+    }
 }
